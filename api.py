@@ -5,6 +5,7 @@ from pydantic import BaseModel
 import cohere
 import os
 from dotenv import load_dotenv
+import uvicorn
 
 # Importa la función para conectarte a la BD
 from db import get_connection
@@ -93,7 +94,7 @@ Usa un estilo claro y directo, sin exceder 500-800 tokens.
         response = cohere_client.generate(
             model="command-r-plus",
             prompt=full_prompt,
-            max_tokens=800,
+            max_tokens=1000,
             temperature=0.5,
             #stop_sequences=["\n\n"]
         )
