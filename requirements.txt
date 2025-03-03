@@ -1,0 +1,30 @@
+# Core
+fastapi==0.115.8
+uvicorn==0.34.0
+python-dotenv==1.0.1
+pydantic==2.10.6
+
+# Database
+mysql-connector-python==9.2.0
+SQLAlchemy==2.0.38
+
+# AI & NLP
+cohere==5.13.12
+openai==0.28.0
+
+# Frontend & Templating
+Jinja2==3.1.5
+streamlit==1.42.0
+
+# Data Processing
+numpy==2.2.3
+pandas==2.2.3
+scipy==1.15.2
+
+# Testing
+pytest==8.3.4
+httpx==0.28.1
+
+# Utilities
+requests==2.32.3
+python-multipart==0.0.20
